@@ -7,7 +7,6 @@ import {
 	CLEAR_PROFILE,
 	GET_PROFILES,
 	GET_REPOS,
-	githubToken,
 } from "./types";
 import { setAlert } from "./alert_actions";
 import { API_URL } from "../constants";

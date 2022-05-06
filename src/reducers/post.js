@@ -16,7 +16,7 @@ const initState = {
 };
 
 /* eslint import/no-anonymous-default-export: [2, {"allowArrowFunction": true}] */
-export default function (state = initState, action) {
+export default function post(state = initState, action) {
 	const { type, payload } = action;
 	switch (type) {
 		case GET_POSTS:
